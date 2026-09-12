@@ -161,7 +161,7 @@ export default async function WorkCaseStudy({ params }: WorkPageProps) {
                 key={metric.label}
                 className="border-b border-dark-text/30 py-8 md:border-r md:px-7"
               >
-                <p className="font-display text-[clamp(3.5rem,7vw,7rem)] leading-none">
+                <p className="font-display text-[clamp(2.8rem,5.5vw,5.75rem)] leading-none">
                   {metric.value}
                 </p>
                 <p className="mt-4 text-sm uppercase tracking-[0.16em] text-dark-text/60">
@@ -198,7 +198,7 @@ export default async function WorkCaseStudy({ params }: WorkPageProps) {
           >
             <div>
               <p className="eyebrow mb-6">Next project</p>
-              <h2 className="font-display text-[clamp(3.2rem,7vw,7rem)] leading-[0.9] transition-transform duration-300 group-hover:translate-x-2">
+              <h2 className="font-display text-[clamp(2.25rem,4.6vw,4.9rem)] leading-[0.98] transition-transform duration-300 group-hover:translate-x-2">
                 {nextProject.title}
               </h2>
             </div>

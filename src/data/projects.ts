@@ -20,120 +20,178 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "fashion-brand-awareness",
-    title: "Brand Awareness Campaign",
-    client: "Independent Fashion Label",
+    slug: "wonderbuild-digital-marketing-strategy",
+    title: "Wonderbuild Digital Strategy",
+    client: "Wonderbuild",
+    industry: "Digital Marketing",
+    year: "2026",
+    type: "Campaign concept, lead generation, brand visibility",
+    objective:
+      "Build brand visibility, generate leads, and create a stronger customer pipeline.",
+    image: "/images/hospitality-leads.png",
+    alt: "Strategic campaign planning desk with architectural imagery and reporting materials.",
+    outcome: "Stronger customer pipeline",
+    role: "Digital marketing strategy and campaign planning",
+    challenge:
+      "Wonderbuild needed a modern campaign concept that could make the brand easier to notice and easier for potential customers to understand.",
+    strategy:
+      "Focus the campaign around visibility, lead generation, and a clear customer journey from first impression to enquiry.",
+    execution:
+      "Developed a campaign direction with clear messaging, content priorities, and performance signals that could support customer pipeline growth.",
+    channels: ["Social media", "Content", "Lead generation", "Analytics"],
+    metrics: [
+      { value: "24+", label: "Projects completed" },
+      { value: "32", label: "Campaigns managed" },
+      { value: "3+", label: "Years learning" },
+      { value: "18", label: "Happy clients" },
+    ],
+    lessons:
+      "A campaign becomes more useful when it connects visibility with a clear next step for the customer.",
+  },
+  {
+    slug: "luxe-essentials-new-collection",
+    title: "Luxe Essentials New Collection",
+    client: "Luxe Essentials",
+    industry: "Beauty",
+    year: "2026",
+    type: "Beauty campaign and launch presentation",
+    objective:
+      "Showcase a new cosmetics collection with a clean, elegant, and premium visual style.",
+    image: "/images/beauty-launch.png",
+    alt: "Premium beauty campaign flat-lay with cosmetics and abstract analytics paper.",
+    outcome: "Premium collection campaign",
+    role: "Campaign concept, content direction, visual positioning",
+    challenge:
+      "The collection needed a polished campaign idea that could feel premium while still being clear and accessible.",
+    strategy:
+      "Use refined beauty positioning, simple product storytelling, and consistent content cues to make the collection feel desirable.",
+    execution:
+      "Created a campaign concept around elegance, product confidence, and a clean visual language for launch communication.",
+    channels: ["Instagram", "Content design", "Product storytelling", "Campaign copy"],
+    metrics: [
+      { value: "90%", label: "Social media marketing" },
+      { value: "92%", label: "Content marketing" },
+      { value: "88%", label: "SEO" },
+      { value: "82%", label: "Copywriting" },
+    ],
+    lessons:
+      "Beauty marketing works best when the product benefit and the visual feeling support the same story.",
+  },
+  {
+    slug: "black-suits-me-best",
+    title: "Black Suits Me Best",
+    client: "Fashion Branding Concept",
     industry: "Fashion",
     year: "2026",
-    type: "Social strategy, paid media, reporting",
+    type: "Fashion campaign and brand identity",
     objective:
-      "Increase qualified reach before a seasonal collection launch without diluting the brand's refined tone.",
+      "Create a bold fashion campaign using a minimalist black-and-white aesthetic.",
     image: "/images/fashion-awareness.png",
-    alt: "Editorial campaign moodboard with burgundy fabric and monochrome contact sheets.",
-    outcome: "+184% engagement across launch content",
-    role: "Digital strategy, content direction, Meta campaign planning",
+    alt: "Editorial fashion campaign moodboard with burgundy fabric and monochrome contact sheets.",
+    outcome: "Confident fashion identity",
+    role: "Campaign concept and brand direction",
     challenge:
-      "The brand had strong visuals but inconsistent content architecture, making it difficult to build momentum before launches.",
+      "The project needed a strong, stylish identity that could communicate confidence without overcomplicating the visuals.",
     strategy:
-      "Create a pre-launch rhythm around collection cues, founder perspective, and audience education, then use paid social to amplify the best-performing creative.",
+      "Build the campaign around contrast, restraint, and a memorable fashion statement.",
     execution:
-      "Built a four-week launch calendar, defined content territories, mapped audience segments, and reviewed creative performance twice weekly.",
-    channels: ["Instagram", "Meta Ads", "Influencer amplification", "Email"],
+      "Developed a minimalist campaign direction using bold styling cues, controlled composition, and direct visual messaging.",
+    channels: ["Fashion branding", "Social media", "Campaign visuals", "Copywriting"],
     metrics: [
-      { value: "+184%", label: "Engagement" },
-      { value: "2.4M", label: "Impressions" },
-      { value: "+61%", label: "Profile visits" },
-      { value: "38%", label: "Lower CPM" },
+      { value: "95%", label: "Communication" },
+      { value: "84%", label: "Marketing research" },
+      { value: "76%", label: "Canva" },
+      { value: "80%", label: "Meta Ads" },
     ],
     lessons:
-      "The highest-performing creative was not the most polished asset. It was the clearest expression of the collection's point of view.",
+      "Minimal campaigns still need a clear point of view. Restraint works when the idea is strong enough.",
   },
   {
-    slug: "beauty-product-launch",
-    title: "Product Launch Strategy",
-    client: "Beauty Brand",
-    industry: "Beauty",
-    year: "2025",
-    type: "Launch strategy, content system, performance analysis",
+    slug: "cargo-logistic-shipping",
+    title: "Cargo Logistic Shipping",
+    client: "Logistics Brand Concept",
+    industry: "Logistics",
+    year: "2026",
+    type: "Logo design and brand concept",
     objective:
-      "Introduce a new skincare product with clear positioning and measurable demand signals before retail expansion.",
-    image: "/images/beauty-launch.png",
-    alt: "Premium beauty campaign flat-lay with cosmetic products and abstract analytics paper.",
-    outcome: "3.7x ROAS during launch period",
-    role: "Launch planning, message strategy, analytics",
-    challenge:
-      "The product had a loyal base but needed clearer reasons to choose it in a crowded category.",
-    strategy:
-      "Build a proof-led launch narrative around routine, texture, and outcomes, supported by sequenced paid creative and post-launch retargeting.",
-    execution:
-      "Defined the message hierarchy, wrote ad angles, coordinated creator usage rights, and built weekly reporting for creative decisions.",
-    channels: ["Meta Ads", "Google Search", "Creators", "Email"],
-    metrics: [
-      { value: "3.7x", label: "ROAS" },
-      { value: "+96%", label: "Add-to-cart rate" },
-      { value: "-28%", label: "CPC" },
-      { value: "41%", label: "Returning buyers" },
-    ],
-    lessons:
-      "Specific product education outperformed broad beauty language, especially when paired with creator assets that felt close to real routines.",
-  },
-  {
-    slug: "hospitality-lead-generation",
-    title: "Lead Generation Campaign",
-    client: "Boutique Hospitality Group",
-    industry: "Hospitality",
-    year: "2025",
-    type: "Lead generation, landing flow, paid search",
-    objective:
-      "Generate qualified event and booking enquiries while protecting the premium perception of the property.",
-    image: "/images/hospitality-leads.png",
-    alt: "Sophisticated hospitality planning desk with architectural images, laptop, and sunlight.",
-    outcome: "-32% cost per qualified lead",
-    role: "Campaign strategy, paid search, reporting",
-    challenge:
-      "Previous campaigns drove enquiries, but too many were low-fit and required time-consuming manual follow-up.",
-    strategy:
-      "Refine offer framing, separate audience intent by campaign group, and tighten the lead form around qualifying details.",
-    execution:
-      "Rebuilt campaign structure, revised landing copy, introduced qualification fields, and tracked lead quality with weekly source review.",
-    channels: ["Google Ads", "Meta Ads", "Landing page", "CRM"],
-    metrics: [
-      { value: "-32%", label: "Cost per lead" },
-      { value: "+47%", label: "Qualified enquiries" },
-      { value: "18%", label: "Booking lift" },
-      { value: "5.2x", label: "Pipeline return" },
-    ],
-    lessons:
-      "Higher-quality demand came from clearer disqualification. The campaign improved when it stopped trying to appeal to everyone.",
-  },
-  {
-    slug: "commerce-paid-social-growth",
-    title: "Paid Social Growth Campaign",
-    client: "E-commerce Brand",
-    industry: "E-commerce",
-    year: "2024",
-    type: "Paid social, retention content, creative testing",
-    objective:
-      "Improve acquisition efficiency for a growing online store while identifying repeatable creative signals.",
+      "Create a clean, professional logo design for a shipping and logistics brand.",
     image: "/images/commerce-growth.png",
-    alt: "E-commerce campaign table with premium packaging, abstract reporting sheet, and phone.",
-    outcome: "+73% revenue from paid social",
-    role: "Media planning, creative testing, analytics",
+    alt: "E-commerce and logistics planning table with packaging, report sheet, and phone.",
+    outcome: "Reliable logistics identity",
+    role: "Brand concept, visual direction, messaging",
     challenge:
-      "The account had enough spend to learn, but campaign structure and creative testing were too scattered to produce reliable decisions.",
+      "The logistics concept needed to suggest movement, reliability, and global transportation in a professional way.",
     strategy:
-      "Simplify campaign architecture, isolate creative variables, and connect acquisition messaging with retention-oriented content.",
+      "Keep the visual language clean and practical, with emphasis on trust, clarity, and delivery confidence.",
     execution:
-      "Rebuilt the testing framework, created weekly creative reads, adjusted spend toward winning concepts, and shared concise decision notes.",
-    channels: ["Meta Ads", "Email", "Landing pages", "Analytics"],
+      "Developed a logistics brand concept that could support shipping communication and customer-facing service materials.",
+    channels: ["Brand identity", "Logistics messaging", "Customer trust", "Service design"],
     metrics: [
-      { value: "+73%", label: "Revenue" },
-      { value: "2.9x", label: "ROAS" },
-      { value: "-21%", label: "CPA" },
-      { value: "+54%", label: "Repeat orders" },
+      { value: "3+", label: "Years learning" },
+      { value: "24+", label: "Projects completed" },
+      { value: "18", label: "Happy clients" },
+      { value: "32", label: "Campaigns managed" },
     ],
     lessons:
-      "Creative volume mattered less than creative clarity. The winning ads made the product's use case obvious in the first few seconds.",
+      "In logistics, clarity is part of the brand. Customers need to understand what is moving, when, and why they can trust the process.",
+  },
+  {
+    slug: "healthy-radiant-skin-beauty-guide",
+    title: "Healthy Radiant Skin Guide",
+    client: "Beauty Guide",
+    industry: "Beauty",
+    year: "2026",
+    type: "Beauty blog and content design",
+    objective:
+      "Create a beauty blog design focused on skincare and healthy, glowing skin.",
+    image: "/images/beauty-launch.png",
+    alt: "Beauty product campaign composition with skincare textures and neutral materials.",
+    outcome: "Clear skincare content",
+    role: "Content concept, blog design direction, audience education",
+    challenge:
+      "The content needed to feel engaging while giving skincare readers a simple reason to keep reading.",
+    strategy:
+      "Use vibrant beauty imagery, clear content structure, and approachable skincare language.",
+    execution:
+      "Designed a beauty-guide concept that presents skincare information in a friendly, visually appealing way.",
+    channels: ["Blog content", "Beauty education", "Visual content", "SEO"],
+    metrics: [
+      { value: "88%", label: "SEO" },
+      { value: "92%", label: "Content marketing" },
+      { value: "82%", label: "Copywriting" },
+      { value: "85%", label: "Google Analytics" },
+    ],
+    lessons:
+      "Helpful beauty content should be easy to understand before it tries to persuade.",
+  },
+  {
+    slug: "smart-scale-fast",
+    title: "Smart Scale Fast",
+    client: "Promotional Graphic",
+    industry: "Business",
+    year: "2026",
+    type: "Promotional graphic and campaign message",
+    objective:
+      "Encourage customers to unlock their potential, achieve goals, and take action through a clear layout.",
+    image: "/images/commerce-growth.png",
+    alt: "Business growth planning table with packaging, analytics printout, and campaign materials.",
+    outcome: "Clear action-driven graphic",
+    role: "Promotional concept, visual layout, campaign message",
+    challenge:
+      "The graphic needed to motivate action without becoming cluttered or confusing.",
+    strategy:
+      "Make the message direct, use a clear hierarchy, and keep the visual structure easy to scan.",
+    execution:
+      "Created an action-focused promotional direction that supports business growth messaging.",
+    channels: ["Promotional design", "Social media", "Business messaging", "Content"],
+    metrics: [
+      { value: "95%", label: "Communication" },
+      { value: "94%", label: "Problem solving" },
+      { value: "84%", label: "Marketing research" },
+      { value: "82%", label: "Copywriting" },
+    ],
+    lessons:
+      "A growth message works better when the audience can immediately see what action to take next.",
   },
 ];
 

@@ -8,7 +8,7 @@
   --accent: #7b2d35;
   --dark: #121212;
   --dark-text: #f4f1e9;
-  --container: 1800px;
+  --container: 1440px;
   --ease-editorial: cubic-bezier(0.76, 0, 0.24, 1);
 }
 
@@ -64,7 +64,7 @@ img {
 
 .section {
   border-top: 1px solid var(--border);
-  padding: clamp(4.5rem, 9vw, 10rem) 1rem;
+  padding: clamp(4rem, 7vw, 8rem) 1rem;
 }
 
 .section-inner {
@@ -74,18 +74,18 @@ img {
 
 .display {
   font-family: var(--font-display);
-  font-size: clamp(4rem, 10vw, 11rem);
+  font-size: clamp(3.25rem, 6.8vw, 7.25rem);
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 0.82;
+  line-height: 0.9;
 }
 
 .section-title {
   font-family: var(--font-display);
-  font-size: clamp(2.65rem, 7vw, 7.8rem);
+  font-size: clamp(2.25rem, 4.5vw, 5rem);
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 0.9;
+  line-height: 0.98;
 }
 
 .eyebrow {

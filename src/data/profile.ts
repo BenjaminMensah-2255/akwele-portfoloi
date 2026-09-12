@@ -1,104 +1,115 @@
 export const profile = {
-  name: "Akosua Mensah",
-  initials: "AM",
-  role: "Digital Marketer & Brand Growth Strategist",
+  name: "Prisca Addo",
+  initials: "PA",
+  role: "Digital Marketer",
   location: "Accra, Ghana",
-  availability: "Available for selected projects",
-  email: "hello@akosuamensah.com",
-  linkedin: "https://www.linkedin.com/",
-  instagram: "https://www.instagram.com/",
-  canonicalUrl: "https://akosuamensah.com",
+  availability: "Available for projects",
+  email: "addoprisca2024@gmail.com",
+  phone: "+233 537 029 191",
+  linkedin: "mailto:addoprisca2024@gmail.com?subject=LinkedIn%20profile%20request",
+  instagram: "mailto:addoprisca2024@gmail.com?subject=Instagram%20profile%20request",
+  businessSite: "https://prissyimportation.wordpress.com",
+  canonicalUrl: "https://addoprisca2024-max.github.io/portfolio/",
   portrait: "/images/portrait.png",
   positioning:
-    "Helping brands turn attention into measurable growth through strategy, content, paid media, and performance analysis.",
+    "Helping businesses grow through strategy, content, SEO, social media, and practical digital marketing.",
   heroCopy:
-    "I help brands become easier to notice, understand, and choose through strategy-led campaigns people can feel and businesses can measure.",
-  aboutStatement:
-    "Marketing is not about posting more. It is about understanding what makes people care, then turning that attention into action.",
-  bio: "Based in Accra and working with brands across lifestyle, beauty, hospitality, commerce, and technology, Akosua builds practical growth systems across content, paid media, reporting, and brand positioning.",
+    "I turn ideas into campaigns, content, and brands that create measurable results.",
+  aboutStatement: "Marketing is about people first. Platforms come second.",
+  bio: "Prisca Addo is an aspiring digital marketer from Accra, Ghana, training with Generation Ghana and dedicated to helping businesses grow through creative marketing strategies and meaningful online engagement. Alongside marketing, she founded Prissy Importation, a business focused on sourcing quality products for customers in Ghana.",
   highlights: [
     { label: "Location", value: "Accra, Ghana" },
-    { label: "Focus", value: "Strategy, paid media, content, analytics" },
-    { label: "Campaigns", value: "Awareness, launch, lead generation, retention" },
-    { label: "Availability", value: "Selected brand and agency projects" },
+    { label: "Training", value: "Digital Marketing, Generation Ghana" },
+    { label: "Business", value: "Founder of Prissy Importation" },
+    { label: "Availability", value: "Marketing, campaign, and business projects" },
   ],
   industries: [
-    "Fashion",
     "Beauty",
-    "Hospitality",
-    "E-commerce",
+    "Fashion",
+    "Logistics",
+    "Importation",
+    "Small Business",
     "Lifestyle",
-    "Technology",
   ],
   expertise: [
     {
-      title: "Digital Strategy",
+      title: "Digital Marketing Strategy",
       description:
-        "Building marketing systems around customer behavior, business goals, positioning, and measurable outcomes.",
+        "Clear, research-backed roadmaps that connect business goals to the channels and messages that can move them.",
     },
     {
-      title: "Social Media",
+      title: "Social Media Management",
       description:
-        "Developing content systems and campaigns that improve brand relevance, reach, and engagement.",
+        "Content calendars, community management, and consistent publishing that grows an engaged audience.",
     },
     {
-      title: "Paid Media",
+      title: "Content Creation",
       description:
-        "Planning and optimizing Meta and Google campaigns with a focus on acquisition, learning velocity, and return.",
+        "Visuals and copy for carousels, reels scripts, and long-form posts that build authority.",
     },
     {
-      title: "Content Strategy",
+      title: "SEO Optimization",
       description:
-        "Turning brand positioning into consistent, relevant content that educates, reassures, and converts.",
+        "Keyword research, on-page improvements, and content structure so the right customers can find the brand.",
     },
     {
-      title: "Analytics",
+      title: "Email Marketing",
       description:
-        "Transforming campaign performance into clear decisions, concise reporting, and useful next steps.",
+        "Welcome flows, newsletters, and offers that turn subscribers into repeat buyers without feeling pushy.",
+    },
+    {
+      title: "Analytics & Reporting",
+      description:
+        "Dashboards and plain-English reports that show what worked, what did not, and what to do next.",
+    },
+    {
+      title: "Importation & Sourcing",
+      description:
+        "Supplier vetting, negotiation, shipping updates, and safe delivery for quality imported products.",
     },
   ],
   results: [
-    { value: 120, suffix: "%", label: "Engagement Growth" },
-    { value: 3.2, suffix: "x", label: "Average ROAS" },
-    { value: 1, suffix: "M+", label: "Campaign Impressions" },
-    { value: 40, suffix: "+", label: "Campaigns Managed" },
+    { value: 24, suffix: "+", label: "Projects Completed" },
+    { value: 18, suffix: "", label: "Happy Clients" },
+    { value: 32, suffix: "", label: "Campaigns Managed" },
+    { value: 3, suffix: "+", label: "Years Learning" },
   ],
   process: [
     {
-      title: "Discover",
+      title: "Research",
       description:
-        "Clarify the audience, brand position, business target, and current performance signals.",
+        "Understand the audience, business goals, customer problems, and current digital presence before choosing channels.",
     },
     {
-      title: "Strategize",
+      title: "Plan",
       description:
-        "Shape the campaign system: channels, message architecture, creative direction, budget, and measurement.",
+        "Turn insights into a clear marketing roadmap with messages, content priorities, timelines, and measurement.",
     },
     {
-      title: "Execute",
+      title: "Create",
       description:
-        "Coordinate content, launch paid activity, manage publishing rhythm, and keep execution focused.",
+        "Develop content, campaigns, and brand touchpoints that help the business become easier to notice and trust.",
     },
     {
-      title: "Optimize",
+      title: "Improve",
       description:
-        "Read performance, identify the strongest signals, and refine the campaign until the numbers move.",
+        "Review analytics, explain performance in plain language, and adjust the work based on what the data shows.",
     },
   ],
   tools: [
-    "Meta Ads Manager",
+    "Social Media Marketing",
+    "Content Marketing",
+    "SEO",
+    "Copywriting",
+    "Google Analytics",
     "Google Ads",
-    "Google Analytics 4",
-    "Google Search Console",
-    "HubSpot",
-    "Mailchimp",
+    "Meta Ads",
     "Canva",
-    "Adobe Creative Suite",
-    "SEMrush",
-    "Ahrefs",
-    "Hootsuite",
-    "Buffer",
-    "Notion",
-    "Google Sheets",
+    "Marketing Research",
+    "Communication",
+    "Problem Solving",
+    "Leadership",
+    "Adaptability",
+    "Collaboration",
   ],
 };

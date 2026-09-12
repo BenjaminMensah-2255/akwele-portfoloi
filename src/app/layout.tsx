@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(profile.canonicalUrl),
   title: `${profile.name} - ${profile.role}`,
   description:
-    "Digital marketer specializing in strategy, social media, paid advertising, content, analytics, and brand growth.",
+    "Prisca Addo is a digital marketer in Accra, Ghana helping businesses grow through strategy, content, SEO and social media, and founder of Prissy Importation.",
   alternates: {
     canonical: "/",
   },
@@ -59,7 +59,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       addressCountry: "Ghana",
     },
     url: profile.canonicalUrl,
-    sameAs: [profile.linkedin, profile.instagram],
+    sameAs: [profile.businessSite],
     knowsAbout: profile.expertise.map((item) => item.title),
   };
 

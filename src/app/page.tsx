@@ -46,7 +46,7 @@ function Hero() {
           </div>
           <Reveal
             delay={0.22}
-            className="mt-8 max-w-2xl text-lg leading-8 text-secondary md:text-xl"
+            className="mt-8 max-w-2xl text-lg leading-8 text-secondary"
           >
             {profile.heroCopy}
           </Reveal>
@@ -92,7 +92,7 @@ function Credibility() {
     <section className="border-y border-border py-5" aria-label="Industries">
       <div className="section-inner flex flex-col gap-4 px-4 sm:px-6 lg:px-10">
         <p className="eyebrow">Experience across</p>
-        <div className="flex flex-wrap gap-x-8 gap-y-3 font-display text-3xl leading-none md:text-5xl">
+        <div className="flex flex-wrap gap-x-8 gap-y-3 font-display text-2xl leading-none md:text-3xl">
           {profile.industries.map((industry) => (
             <span key={industry}>{industry}</span>
           ))}
@@ -138,7 +138,7 @@ function Expertise() {
       <div className="section-inner">
         <Reveal className="mb-14 max-w-4xl">
           <p className="eyebrow mb-6">Expertise</p>
-          <h2 className="section-title">Strategy first. Creative with purpose.</h2>
+          <h2 className="section-title">Services built around growth.</h2>
         </Reveal>
         <div className="border-t border-border">
           {profile.expertise.map((item, index) => (
@@ -151,7 +151,7 @@ function Expertise() {
               <h3 className="text-2xl transition-transform duration-300 group-hover:translate-x-2 md:text-4xl">
                 {item.title}
               </h3>
-              <p className="max-w-3xl text-lg leading-8 text-secondary">
+            <p className="max-w-3xl leading-7 text-secondary md:text-lg md:leading-8">
                 {item.description}
               </p>
             </Reveal>
@@ -176,9 +176,8 @@ function SelectedWork() {
             </h2>
           </div>
           <p className="max-w-xl self-end text-lg leading-8 text-secondary">
-            Four focused examples of how positioning, content, paid media, and
-            reporting can work together without making the brand feel louder
-            than it needs to be.
+            Projects with real outcomes across digital strategy, beauty
+            campaigns, fashion branding, logistics, content, and importation.
           </p>
         </Reveal>
       </div>
@@ -196,7 +195,7 @@ function SelectedWork() {
                   <span>{formatIndex(index)}</span>
                   <span>{project.year}</span>
                 </div>
-                <h3 className="project-title font-display text-[clamp(3rem,7vw,7rem)] leading-[0.88]">
+                <h3 className="project-title font-display text-[clamp(2.25rem,4.6vw,4.9rem)] leading-[0.96]">
                   {project.title}
                 </h3>
                 <div className="mt-8 grid gap-5 border-t border-border pt-5 text-sm text-secondary md:grid-cols-3">
@@ -224,10 +223,10 @@ function Results() {
     <section className="section bg-dark text-dark-text">
       <div className="section-inner">
         <Reveal className="grid gap-10 lg:grid-cols-[1fr_1fr]">
-          <h2 className="section-title">Strategy matters when it moves numbers.</h2>
+          <h2 className="section-title">Learning, building, and turning ideas into measurable work.</h2>
           <p className="max-w-xl self-end text-lg leading-8 text-dark-text/70">
-            Growth is treated as a system: audience insight, creative clarity,
-            channel discipline, and regular analysis.
+            Prisca combines creativity with data-driven decision making,
+            practical business experience, and clear communication.
           </p>
         </Reveal>
         <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-4">
@@ -246,7 +245,7 @@ function Process() {
       <div className="section-inner grid gap-14 lg:grid-cols-[0.78fr_1.22fr]">
         <Reveal className="lg:sticky lg:top-28 lg:h-fit">
           <p className="eyebrow mb-6">Process</p>
-          <h2 className="section-title">Clear thinking before louder execution.</h2>
+          <h2 className="section-title">From strategy to execution.</h2>
         </Reveal>
         <div className="border-t border-border">
           {profile.process.map((item, index) => (
@@ -276,12 +275,12 @@ function Tools() {
       <div className="section-inner">
         <Reveal className="mb-12 grid gap-7 md:grid-cols-[0.8fr_1fr]">
           <div>
-            <p className="eyebrow mb-6">Tools and platforms</p>
-            <h2 className="section-title">Systems used with restraint.</h2>
+            <p className="eyebrow mb-6">Capabilities</p>
+            <h2 className="section-title">Skills she is building every day.</h2>
           </div>
           <p className="max-w-xl self-end text-lg leading-8 text-secondary">
-            Platforms are selected for what they reveal, not for how impressive
-            the stack looks.
+            A practical mix of marketing, research, analytics, communication,
+            and business skills shaped through training and real customer work.
           </p>
         </Reveal>
         <div className="grid border-t border-l border-border sm:grid-cols-2 lg:grid-cols-4">
@@ -306,7 +305,7 @@ function Testimonials() {
       <div className="section-inner">
         <Reveal className="mb-12">
           <p className="eyebrow mb-6">Testimonials</p>
-          <h2 className="section-title">What the work felt like inside the team.</h2>
+          <h2 className="section-title">What people say.</h2>
         </Reveal>
         <div className="grid border-t border-border lg:grid-cols-3">
           {testimonials.map((testimonial) => (
@@ -315,7 +314,7 @@ function Testimonials() {
               key={testimonial.name}
               className="border-b border-border py-8 lg:border-r lg:px-8"
             >
-              <blockquote className="font-display text-4xl leading-[1.05]">
+              <blockquote className="font-display text-3xl leading-tight">
                 &quot;{testimonial.quote}&quot;
               </blockquote>
               <p className="mt-10 text-sm text-secondary">
@@ -337,7 +336,7 @@ function Experience() {
       <div className="section-inner grid gap-14 lg:grid-cols-[0.72fr_1.28fr]">
         <Reveal>
           <p className="eyebrow mb-6">Experience</p>
-          <h2 className="section-title">Built through strategy, launch work, and reporting.</h2>
+          <h2 className="section-title">Education, experience, and milestones.</h2>
         </Reveal>
         <div className="border-t border-border">
           {experience.map((item, index) => (
@@ -370,16 +369,14 @@ function Philosophy() {
       <div className="section-inner">
         <Reveal>
           <p className="eyebrow mb-8 text-dark-text/55">Marketing philosophy</p>
-          <h2 className="font-display text-[clamp(4rem,11vw,13rem)] leading-[0.82]">
-            GOOD MARKETING
+          <h2 className="font-display text-[clamp(2.8rem,6.5vw,7.5rem)] leading-[0.95]">
+            SUCCESSFUL MARKETING
             <br />
-            EARNS ATTENTION.
+            UNDERSTANDS PEOPLE,
             <br />
-            GREAT MARKETING
+            SOLVES PROBLEMS,
             <br />
-            TURNS IT INTO
-            <br />
-            ACTION.
+            AND BUILDS TRUST.
           </h2>
         </Reveal>
       </div>
@@ -394,16 +391,17 @@ function Contact() {
         <Reveal>
           <p className="eyebrow mb-6">Contact</p>
           <h2 className="section-title">
-            LET&apos;S CREATE
+            LET&apos;S BUILD
             <br />
-            SOMETHING
+            SOMETHING WORTH
             <br />
-            THAT GROWS.
+            TALKING ABOUT.
           </h2>
         </Reveal>
         <Reveal className="self-end">
-          <p className="max-w-xl text-xl leading-8 text-secondary">
-            Have a brand, campaign, or product worth growing? Let&apos;s talk.
+          <p className="max-w-xl text-lg leading-8 text-secondary">
+            Whether you need a marketing partner, a campaign plan, or imported
+            products, Prisca would love to hear from you.
           </p>
           <div className="mt-10 grid border-t border-border">
             <a className="group flex items-center justify-between border-b border-border py-5" href={`mailto:${profile.email}`}>
@@ -411,11 +409,15 @@ function Contact() {
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a className="group flex items-center justify-between border-b border-border py-5" href={profile.linkedin} target="_blank" rel="noreferrer">
-              <span>LinkedIn</span>
+              <span>Request LinkedIn profile</span>
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
-            <a className="group flex items-center justify-between border-b border-border py-5" href={profile.instagram} target="_blank" rel="noreferrer">
-              <span>Instagram</span>
+            <a className="group flex items-center justify-between border-b border-border py-5" href={`tel:${profile.phone.replace(/\s/g, "")}`}>
+              <span>{profile.phone}</span>
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </a>
+            <a className="group flex items-center justify-between border-b border-border py-5" href={profile.businessSite} target="_blank" rel="noreferrer">
+              <span>Prissy Importation</span>
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
             <p className="border-b border-border py-5 text-secondary">{profile.location}</p>
@@ -441,8 +443,11 @@ function Footer() {
           <a href={profile.linkedin} className="nav-link" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
-          <a href={profile.instagram} className="nav-link" target="_blank" rel="noreferrer">
-            Instagram
+          <a href={`tel:${profile.phone.replace(/\s/g, "")}`} className="nav-link">
+            Phone
+          </a>
+          <a href={profile.businessSite} className="nav-link" target="_blank" rel="noreferrer">
+            Prissy Importation
           </a>
           <a href="#" className="nav-link">
             Back to top

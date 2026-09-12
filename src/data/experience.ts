@@ -1,29 +1,38 @@
 export const experience = [
   {
-    role: "Digital Marketing Specialist",
-    company: "Independent Consulting",
+    role: "Digital Marketing Graduate",
+    company: "Generation Ghana",
+    year: "August 2026",
+    description:
+      "Intensive practical training in digital marketing strategy, SEO, paid social, and analytics.",
+    achievement:
+      "Built hands-on campaign thinking across strategy, search visibility, paid channels, and performance reporting.",
+  },
+  {
+    role: "Founder",
+    company: "Prissy Importation",
     year: "2024 - Present",
     description:
-      "Leads strategy, paid media, reporting, and content systems for growing lifestyle and commerce brands.",
+      "Founded and runs an importation business sourcing quality products for Ghanaian customers.",
     achievement:
-      "Built repeatable campaign frameworks that improved decision speed and reduced wasted media spend.",
+      "Built practical experience in pricing, logistics, customer care, supplier vetting, and trust-led service.",
   },
   {
-    role: "Marketing Associate",
-    company: "Brand Growth Studio",
-    year: "2022 - 2024",
+    role: "Freelance Digital Marketer",
+    company: "Independent",
+    year: "2024 - Present",
     description:
-      "Supported social strategy, campaign production, influencer coordination, and performance reporting.",
+      "Supports small businesses with content, social media, search visibility, and practical campaign direction.",
     achievement:
-      "Helped reposition content from output volume to clearer audience education and measurable conversion paths.",
+      "Uses creative work backed by research, analytics, and clear reporting that businesses can act on.",
   },
   {
-    role: "Social Media Strategist",
-    company: "Lifestyle Clients",
-    year: "2020 - 2022",
+    role: "Education",
+    company: "Accra Technical University",
+    year: "Education",
     description:
-      "Managed content calendars, community signals, launch support, and monthly insight reporting.",
+      "Academic foundation supporting business, communication, and professional development.",
     achievement:
-      "Created simple reporting rituals that made content performance easier for founders and teams to act on.",
+      "Combines formal learning with practical marketing and entrepreneurship experience.",
   },
 ];

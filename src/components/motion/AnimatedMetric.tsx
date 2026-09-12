@@ -48,7 +48,7 @@ export function AnimatedMetric({
 
   return (
     <div ref={ref} className={cn("metric", className)}>
-      <p className="font-display text-[clamp(3.5rem,8vw,8rem)] leading-none">
+      <p className="font-display text-[clamp(2.8rem,5.5vw,5.75rem)] leading-none">
         {formatted}
         {suffix}
       </p>

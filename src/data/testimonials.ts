@@ -1,23 +1,23 @@
 export const testimonials = [
   {
     quote:
-      "She brought clarity to our digital strategy and turned social media into a measurable growth channel.",
-    name: "Nana A.",
+      "Prisca understood our audience faster than anyone we've worked with. Our page finally feels alive and our enquiries doubled.",
+    name: "Ama Boateng",
     role: "Founder",
-    company: "Lifestyle Retail Brand",
+    company: "Retail Brand",
   },
   {
     quote:
-      "Akosua connected creative decisions with performance. The reporting was clear, calm, and useful.",
-    name: "Efua B.",
-    role: "Marketing Lead",
-    company: "Beauty Company",
+      "Organised, creative and genuinely reliable. She explained the strategy in a way I could act on immediately.",
+    name: "Kwame Mensah",
+    role: "Owner",
+    company: "Service Business",
   },
   {
     quote:
-      "The campaign felt premium from the outside and disciplined from the inside. That combination changed the results.",
-    name: "Kwame D.",
-    role: "Commercial Director",
-    company: "Hospitality Group",
+      "The importation service was smooth from order to delivery. Honest pricing and constant updates felt rare and refreshing.",
+    name: "Naa Adjeley",
+    role: "Boutique Owner",
+    company: "Prissy Importation Customer",
   },
 ];

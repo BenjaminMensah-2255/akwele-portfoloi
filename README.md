@@ -1,4 +1,4 @@
-# Akosua Mensah Portfolio
+# Prisca Addo Portfolio
 
 Premium portfolio website for a digital marketer and brand growth strategist, built with Next.js App Router, TypeScript, Tailwind CSS, Framer Motion, `next/image`, `next/font`, and restrained Lucide React icons.
 
@@ -30,7 +30,7 @@ Update the primary identity, contact links, positioning, expertise, process, too
 src/data/profile.ts
 ```
 
-The placeholder name is centralized as `Akosua Mensah`. Replace it there once the final name, email, and social links are ready.
+Prisca's name, email, phone number, business link, and positioning are centralized in this file for easy updates.
 
 ## Add or Edit Projects
 
