@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Akosua Mensah Portfolio
 
-## Getting Started
+Premium portfolio website for a digital marketer and brand growth strategist, built with Next.js App Router, TypeScript, Tailwind CSS, Framer Motion, `next/image`, `next/font`, and restrained Lucide React icons.
 
-First, run the development server:
+## Installation
+
+```bash
+npm install
+```
+
+## Run Locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+## Edit Profile Content
 
-To learn more about Next.js, take a look at the following resources:
+Update the primary identity, contact links, positioning, expertise, process, tools, and metrics in:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```text
+src/data/profile.ts
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The placeholder name is centralized as `Akosua Mensah`. Replace it there once the final name, email, and social links are ready.
 
-## Deploy on Vercel
+## Add or Edit Projects
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Project summaries and case-study content live in:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+src/data/projects.ts
+```
+
+Each project needs a unique `slug`. The route `/work/[slug]` is generated from this file, so adding a new project automatically creates a case-study page.
+
+## Edit Experience and Testimonials
+
+```text
+src/data/experience.ts
+src/data/testimonials.ts
+```
+
+Keep copy concise and outcome-led. The design is intentionally typography-first, so stronger writing improves the whole site.
+
+## Replace Images
+
+Project-bound placeholder images are stored in:
+
+```text
+public/images/
+```
+
+Replace these files with real assets using the same filenames, or update the image paths in `src/data/profile.ts` and `src/data/projects.ts`.
+
+Current placeholders:
+
+```text
+portrait.png
+fashion-awareness.png
+beauty-launch.png
+hospitality-leads.png
+commerce-growth.png
+```
+
+Use large, sharp images with calm compositions. Avoid screenshots with tiny unreadable UI, heavy filters, decorative graphics, and stock images that feel generic.
+
+## Change Colors
+
+Design tokens are CSS variables in:
+
+```text
+src/app/globals.css
+```
+
+Key variables:
+
+```css
+--background: #f4f1e9;
+--foreground: #111111;
+--secondary: #6f6b64;
+--border: #d9d4cb;
+--accent: #7b2d35;
+```
+
+Use one accent color sparingly.
+
+## Change Fonts
+
+The body font uses `next/font` in:
+
+```text
+src/app/layout.tsx
+```
+
+The editorial display stack is defined as `--font-display` in `src/app/globals.css`. Replace it with a local or Google serif if you add the font through `next/font`.
+
+## Modify Animation Timing
+
+Shared reveal timing lives in:
+
+```text
+src/components/motion/Reveal.tsx
+src/components/motion/ImageReveal.tsx
+src/app/globals.css
+```
+
+The main easing token is:
+
+```css
+--ease-editorial: cubic-bezier(0.76, 0, 0.24, 1);
+```
+
+Reduced-motion preferences are respected in the motion components and global CSS.
+
+## Deploy to Vercel
+
+1. Push the repository to GitHub, GitLab, or Bitbucket.
+2. Import the project in Vercel.
+3. Keep the default Next.js settings.
+4. Deploy.
+
+Before publishing, update `canonicalUrl` in `src/data/profile.ts` to the production domain.
