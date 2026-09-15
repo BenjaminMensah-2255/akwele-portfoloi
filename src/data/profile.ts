@@ -10,7 +10,7 @@ export const profile = {
   instagram: "mailto:addoprisca2024@gmail.com?subject=Instagram%20profile%20request",
   businessSite: "https://prissyimportation.wordpress.com",
   canonicalUrl: "https://addoprisca2024-max.github.io/portfolio/",
-  portrait: "/images/portrait.png",
+  portrait: "/akwele.jpeg",
   positioning:
     "Helping businesses grow through strategy, content, SEO, social media, and practical digital marketing.",
   heroCopy:
