@@ -35,10 +35,7 @@ function Hero() {
     <section className="relative min-h-[96svh] px-4 pb-10 pt-28 sm:px-6 lg:px-10">
       <div className="section-inner grid min-h-[calc(96svh-9rem)] items-end gap-10 lg:grid-cols-[minmax(0,1.18fr)_minmax(0,0.82fr)]">
         <div className="relative z-10 min-w-0">
-          <Reveal>
-            <p className="eyebrow mb-5">{profile.role}</p>
-          </Reveal>
-          <div className="display max-w-[11ch]" aria-label="Digital Marketer">
+          <div className="display max-w-[11ch] mt-6" aria-label="Digital Marketer">
             <Reveal className="block overflow-hidden">DIGITAL</Reveal>
             <Reveal className="block overflow-hidden" delay={0.1}>
               MARKETER
@@ -225,7 +222,7 @@ function Results() {
         <Reveal className="grid gap-10 lg:grid-cols-[1fr_1fr]">
           <h2 className="section-title">Learning, building, and turning ideas into measurable work.</h2>
           <p className="max-w-xl self-end text-lg leading-8 text-dark-text/70">
-            Prisca combines creativity with data-driven decision making,
+            I combine creativity with data-driven decision making,
             practical business experience, and clear communication.
           </p>
         </Reveal>
@@ -276,7 +273,7 @@ function Tools() {
         <Reveal className="mb-12 grid gap-7 md:grid-cols-[0.8fr_1fr]">
           <div>
             <p className="eyebrow mb-6">Capabilities</p>
-            <h2 className="section-title">Skills she is building every day.</h2>
+            <h2 className="section-title">Skills I am building every day.</h2>
           </div>
           <p className="max-w-xl self-end text-lg leading-8 text-secondary">
             A practical mix of marketing, research, analytics, communication,
@@ -401,7 +398,7 @@ function Contact() {
         <Reveal className="self-end">
           <p className="max-w-xl text-lg leading-8 text-secondary">
             Whether you need a marketing partner, a campaign plan, or imported
-            products, Prisca would love to hear from you.
+            products, I would love to hear from you.
           </p>
           <div className="mt-10 grid border-t border-border">
             <a className="group flex items-center justify-between border-b border-border py-5" href={`mailto:${profile.email}`}>

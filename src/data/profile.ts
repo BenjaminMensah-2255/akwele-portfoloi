@@ -10,16 +10,16 @@ export const profile = {
   instagram: "mailto:addoprisca2024@gmail.com?subject=Instagram%20profile%20request",
   businessSite: "https://prissyimportation.wordpress.com",
   canonicalUrl: "https://addoprisca2024-max.github.io/portfolio/",
-  portrait: "/akwele.jpeg",
+  portrait: "/akwele1.jpeg",
   positioning:
     "Helping businesses grow through strategy, content, SEO, social media, and practical digital marketing.",
   heroCopy:
     "I turn ideas into campaigns, content, and brands that create measurable results.",
   aboutStatement: "Marketing is about people first. Platforms come second.",
-  bio: "Prisca Addo is an aspiring digital marketer from Accra, Ghana, training with Generation Ghana and dedicated to helping businesses grow through creative marketing strategies and meaningful online engagement. Alongside marketing, she founded Prissy Importation, a business focused on sourcing quality products for customers in Ghana.",
+  bio: "I am a certified digital marketer from Accra, Ghana. Graduated from the Generation Ghana program. I'm dedicated to helping businesses grow through creative marketing strategies and meaningful online engagement. Alongside marketing, I founded Prissy Import and Collection, a business focused on sourcing quality products for customers in Ghana.",
   highlights: [
     { label: "Location", value: "Accra, Ghana" },
-    { label: "Training", value: "Digital Marketing, Generation Ghana" },
+    { label: "Profession", value: "Digital Marketer" },
     { label: "Business", value: "Founder of Prissy Importation" },
     { label: "Availability", value: "Marketing, campaign, and business projects" },
   ],
