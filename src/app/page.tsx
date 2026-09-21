@@ -62,7 +62,7 @@ function Hero() {
             priority
             sizes="(min-width: 1024px) 43vw, 100vw"
             className="aspect-[4/5] w-full lg:absolute lg:bottom-0 lg:right-0 lg:h-[76vh]"
-            imageClassName="object-[50%_28%]"
+            imageClassName="object-[50%_10%]"
           />
           <Reveal
             delay={0.45}
