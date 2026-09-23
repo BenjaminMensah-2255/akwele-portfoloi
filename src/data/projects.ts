@@ -166,23 +166,23 @@ export const projects: Project[] = [
   },
   {
     slug: "healthy-radiant-skin-beauty-guide",
-    title: "Healthy Radiant Skin Guide",
-    client: "Beauty Guide",
+    title: "Skincare Routine Visual Story",
+    client: "Skincare Concept",
     industry: "Beauty",
     year: "2026",
-    type: "Beauty blog and content design",
+    type: "Skincare routine design and visual storytelling",
     objective:
-      "Create a beauty blog design focused on skincare and healthy, glowing skin.",
-    image: "/images/beauty-launch.png",
-    alt: "Beauty product campaign composition with skincare textures and neutral materials.",
-    outcome: "Clear skincare content",
-    role: "Content concept, blog design direction, audience education",
+      "Create a fresh, calming skincare routine design that guides viewers through each step in a clean, modern, and visually appealing way.",
+    image: "/skin.jpeg",
+    alt: "Clean skincare routine visual design with soft colours and beauty imagery.",
+    outcome: "Inviting skincare visual story",
+    role: "Visual concept, layout design, and skincare content direction",
     challenge:
-      "The content needed to feel engaging while giving skincare readers a simple reason to keep reading.",
+      "The project needed to make a simple skincare concept feel easy to connect with while still being informative and polished.",
     strategy:
-      "Use vibrant beauty imagery, clear content structure, and approachable skincare language.",
+      "Use soft colours, balanced layouts, and engaging imagery to create a calm visual rhythm across each skincare step.",
     execution:
-      "Designed a beauty-guide concept that presents skincare information in a friendly, visually appealing way.",
+      "Designed a routine-based visual story that keeps the overall look clean, modern, and inviting for the audience.",
     channels: ["Blog content", "Beauty education", "Visual content", "SEO"],
     metrics: [
       { value: "88%", label: "SEO" },
@@ -191,7 +191,7 @@ export const projects: Project[] = [
       { value: "85%", label: "Google Analytics" },
     ],
     lessons:
-      "Helpful beauty content should be easy to understand before it tries to persuade.",
+      "A clear visual system can turn a simple skincare routine into a story that feels both useful and emotionally inviting.",
   },
   {
     slug: "smart-scale-fast",
