@@ -18,8 +18,8 @@ export type Project = {
   lessons: string;
   presentation?: {
     canvaUrl: string;
-    downloadUrl: string;
-    downloadLabel: string;
+    downloadUrl?: string;
+    downloadLabel?: string;
   };
 };
 
@@ -85,6 +85,38 @@ export const projects: Project[] = [
       canvaUrl: "https://canva.link/px7xduccz55g31t",
       downloadUrl: "/downloads/kodu-pads-marketing-strategy.pptx",
       downloadLabel: "Download PPT",
+    },
+  },
+  {
+    slug: "pitch-deck-for-a-lego",
+    title: "A Pitch Deck for a Lego",
+    client: "LEGO",
+    industry: "Client Research",
+    year: "2026",
+    type: "Client research assignment and Canva pitch deck",
+    objective:
+      "Improve LEGO's website interactivity and increase engagement through a clear client research presentation.",
+    image: "/images/lego-pitch-deck.png",
+    alt: "Canva pitch deck cover for a LEGO client research assignment.",
+    outcome: "Website engagement pitch deck",
+    role: "Client research, competitor analysis, and Canva presentation design",
+    challenge:
+      "The project needed to translate LEGO's digital engagement opportunity into a presentation that was simple to follow and useful for decision-making.",
+    strategy:
+      "Structure the deck around client business information, an industry report, key challenges, growth areas, and LEGO's position against key competitors.",
+    execution:
+      "Built the Canva deck around two ideas: interactive product exploration and a build-and-share community experience.",
+    channels: ["Client research", "Industry report", "Competitor analysis", "Canva presentation"],
+    metrics: [
+      { value: "1", label: "Business need" },
+      { value: "2", label: "Hypotheses" },
+      { value: "4", label: "Research sections" },
+      { value: "2026", label: "Presented" },
+    ],
+    lessons:
+      "A stronger pitch connects research, competitors, and clear digital ideas to one practical business need.",
+    presentation: {
+      canvaUrl: "https://canva.link/1we0ow1uvnm14qc",
     },
   },
   {

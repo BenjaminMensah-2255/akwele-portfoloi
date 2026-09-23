@@ -116,14 +116,16 @@ export default async function WorkCaseStudy({ params }: WorkPageProps) {
                     <ExternalLink className="h-4 w-4" strokeWidth={1.5} />
                     <span>View on Canva</span>
                   </a>
-                  <a
-                    href={project.presentation.downloadUrl}
-                    download
-                    className="border-button gap-2"
-                  >
-                    <Download className="h-4 w-4" strokeWidth={1.5} />
-                    <span>{project.presentation.downloadLabel}</span>
-                  </a>
+                  {project.presentation.downloadUrl ? (
+                    <a
+                      href={project.presentation.downloadUrl}
+                      download
+                      className="border-button gap-2"
+                    >
+                      <Download className="h-4 w-4" strokeWidth={1.5} />
+                      <span>{project.presentation.downloadLabel ?? "Download"}</span>
+                    </a>
+                  ) : null}
                 </div>
               ) : null}
             </Reveal>
