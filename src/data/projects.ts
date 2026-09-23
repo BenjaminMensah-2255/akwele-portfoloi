@@ -16,6 +16,11 @@ export type Project = {
   channels: string[];
   metrics: { value: string; label: string }[];
   lessons: string;
+  presentation?: {
+    canvaUrl: string;
+    downloadUrl: string;
+    downloadLabel: string;
+  };
 };
 
 export const projects: Project[] = [
@@ -76,6 +81,11 @@ export const projects: Project[] = [
     ],
     lessons:
       "Health and sustainability messages work best when the audience can understand the product benefit without losing the human feeling behind it.",
+    presentation: {
+      canvaUrl: "https://canva.link/px7xduccz55g31t",
+      downloadUrl: "/downloads/kodu-pads-marketing-strategy.pptx",
+      downloadLabel: "Download PPT",
+    },
   },
   {
     slug: "luxe-essentials-new-collection",

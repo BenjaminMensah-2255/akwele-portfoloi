@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ArrowLeft, ArrowRight, Download, ExternalLink } from "lucide-react";
 import { ImageReveal } from "@/components/motion/ImageReveal";
 import { Reveal } from "@/components/motion/Reveal";
 import { profile } from "@/data/profile";
@@ -105,6 +105,27 @@ export default async function WorkCaseStudy({ params }: WorkPageProps) {
                   <dd>{project.channels.join(", ")}</dd>
                 </div>
               </dl>
+              {project.presentation ? (
+                <div className="mt-8 flex flex-wrap gap-4">
+                  <a
+                    href={project.presentation.canvaUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="border-button gap-2"
+                  >
+                    <ExternalLink className="h-4 w-4" strokeWidth={1.5} />
+                    <span>View on Canva</span>
+                  </a>
+                  <a
+                    href={project.presentation.downloadUrl}
+                    download
+                    className="border-button gap-2"
+                  >
+                    <Download className="h-4 w-4" strokeWidth={1.5} />
+                    <span>{project.presentation.downloadLabel}</span>
+                  </a>
+                </div>
+              ) : null}
             </Reveal>
           </div>
         </div>
