@@ -27,8 +27,8 @@ export const projects: Project[] = [
     year: "2026",
     type: "Campaign concept, lead generation, brand visibility",
     objective:
-      "Build brand visibility, generate leads, and create a stronger customer pipeline.",
-    image: "/images/hospitality-leads.png",
+      "WonderBuild is a Ghanaian manufacturer of innovative interlocking bricks designed to make construction stronger, more efficient and reliable. With a focus on quality, durability and dependable supply, WonderBuild provides practical building solutions for contractors, builders, property developers, architects and construction companies.",
+    image: "/wonderbuild.jpeg",
     alt: "Strategic campaign planning desk with architectural imagery and reporting materials.",
     outcome: "Stronger customer pipeline",
     role: "Digital marketing strategy and campaign planning",
@@ -47,6 +47,35 @@ export const projects: Project[] = [
     ],
     lessons:
       "A campaign becomes more useful when it connects visibility with a clear next step for the customer.",
+  },
+  {
+    slug: "kodu-pads-eco-friendly-period-care",
+    title: "Kodu Pads Eco-Friendly Period Care",
+    client: "Kodu Pads",
+    industry: "Health & Wellness",
+    year: "2026",
+    type: "Sustainable product storytelling and brand awareness",
+    objective:
+      "Introduce eco-friendly menstrual pads made from plantain and banana fibres with a clear comfort and sustainability message.",
+    image: "/kodu.jpeg",
+    alt: "Kodu Pads eco-friendly menstrual pad product visual.",
+    outcome: "Natural period care awareness",
+    role: "Product storytelling, campaign concept, and content direction",
+    challenge:
+      "Kodu Pads needed communication that could make a sensitive health product feel safe, comfortable, reliable, and easy to understand.",
+    strategy:
+      "Position the product around natural materials, Ghanaian innovation, environmental care, and everyday confidence for women and girls.",
+    execution:
+      "Built a campaign direction that explains the plantain and banana fibre benefit while keeping the message warm, practical, and respectful.",
+    channels: ["Product storytelling", "Social media", "Awareness campaign", "Sustainability messaging"],
+    metrics: [
+      { value: "100%", label: "Plant-based focus" },
+      { value: "3", label: "Core benefits" },
+      { value: "1", label: "Ghanaian innovation" },
+      { value: "24+", label: "Projects completed" },
+    ],
+    lessons:
+      "Health and sustainability messages work best when the audience can understand the product benefit without losing the human feeling behind it.",
   },
   {
     slug: "luxe-essentials-new-collection",
