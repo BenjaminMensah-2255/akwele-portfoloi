@@ -52,6 +52,9 @@ export const projects: Project[] = [
     ],
     lessons:
       "A campaign becomes more useful when it connects visibility with a clear next step for the customer.",
+    presentation: {
+      canvaUrl: "https://canva.link/qbnd6p6ml65eyw7",
+    },
   },
   {
     slug: "kodu-pads-eco-friendly-period-care",
